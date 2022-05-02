@@ -11,7 +11,8 @@ def home():
 
 places = ['post', 'coop']
 
-#jkjk
+#hej sandra
+
 @app.route('/add_place', methods=['POST'])
 def add_place():
     place = request.form['place']
